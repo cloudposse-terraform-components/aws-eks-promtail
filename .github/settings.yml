@@ -5,5 +5,3 @@ repository:
   description: Promtail is an agent which ships the contents of local logs to a Loki instance
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
