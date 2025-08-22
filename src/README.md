@@ -10,9 +10,8 @@ tags:
 
 Promtail is an agent which ships the contents of local logs to a Loki instance.
 
-This component deploys the [grafana/promtail](https://github.com/grafana/helm-charts/tree/main/charts/promtail) helm
+This component deploys the [grafana/promtail](https://github.com/grafana/helm-charts/tree/main/charts/promtail) Helm
 chart and expects `eks/loki` to be deployed.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -29,7 +28,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -120,12 +122,17 @@ components:
 ## Outputs
 
 No outputs.
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/eks/promtail) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-eks-promtail&utm_content=)
+
